@@ -1,4 +1,4 @@
-Coordinate-Estimate
+
 # Coordinate Estimate Function
 
 This function estimates coordinates using satellite data read from a specific SP3 file.
@@ -7,9 +7,9 @@ This function estimates coordinates using satellite data read from a specific SP
 
 function [X_Coordinates,Y_Coordinates,Z_Coordinates] = Coordinate_Estimate(sp3_file)
 
-Parameters
+##Parameters
 sp3_file: The path to the SP3 file. This file contains the satellite data.
-Outputs
+##Outputs
 X_Coordinates: The estimated values of the satellite’s X coordinates.
 Y_Coordinates: The estimated values of the satellite’s Y coordinates.
 Z_Coordinates: The estimated values of the satellite’s Z coordinates.
